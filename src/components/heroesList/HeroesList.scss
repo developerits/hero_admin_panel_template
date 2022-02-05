@@ -1,0 +1,33 @@
+// .heroes-list {
+//   &__item {
+//     &-enter {
+//       opacity: 0;
+//     }
+//     &-enter-active {
+//       opacity: 1;
+//       transition: opacity 5000ms ease-in;
+//     }
+//     &-exit {
+//       opacity: 1;
+//     }
+//     &-exit-active {
+//       opacity: 0;
+//       transition: opacity 5000ms ease-in;
+//     }
+//   }
+// }
+
+.hero-enter {
+  opacity: 0;
+}
+.hero-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+.hero-exit {
+  opacity: 1;
+}
+.hero-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-in;
+}
